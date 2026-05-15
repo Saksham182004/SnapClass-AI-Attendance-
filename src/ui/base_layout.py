@@ -28,13 +28,26 @@ def style_background_dashboard():
                 .stApp{
                     background: #E0E3FF !important;
                 }
+
+                input, textarea {
+                    background-color: #C5C9F5 !important;
+                    color: black !important;
+                }
+
+                input::placeholder, textarea::placeholder {
+                    color: #555870 !important;
+                }
+
+                div[data-testid="stTextInput"] label,
+                div[data-testid="stTextInput"] p {
+                    color: black !important;
+                }
         </style>
 
     """,unsafe_allow_html=True)
 
 
 def style_base_layout():
-
 
     st.markdown("""
        <style>

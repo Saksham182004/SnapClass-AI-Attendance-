@@ -1,3 +1,5 @@
+
+streamlit
 numpy
 pandas 
 
@@ -16,6 +18,9 @@ segno # qr code generator
 pillow # helps in image transformations
 
 
-streamlit
+
+
+librosa
+resemblyzer
 
 
